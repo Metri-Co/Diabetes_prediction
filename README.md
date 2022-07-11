@@ -2,7 +2,7 @@
 Hi! Here I developed Machine Learning models for diabetes II prediction. The dataset was taken from Kaggle:
 https://www.kaggle.com/datasets/houcembenmansour/predict-diabetes-based-on-diagnostic-measures
 
-You can take the programm with no data augmentation `` or the augmente `` to reproduce or improve this work.
+You can take the programm with no data augmentation `diabetes_nonaugmented.py` or the augmented dataset `diabetes.py` to reproduce or improve this work.
 
 ## Motivation
 The main motivation of this work was to practice feature engineering, data augmentation, feature selection, and model selection. Moreover, I am a Nutritionist, so I was very excited for creating a possible auxiliar tool for my colleagues. One of the main reasons why I selected this dataset is because it use normal anthropometric and biochemical tests that most of the nutritionist can have in handly.
