@@ -8,7 +8,7 @@ You can take the programm with no data augmentation `diabetes_nonaugmented.py` o
 The main motivation of this work was to practice feature engineering, data augmentation, feature selection, and model selection. Moreover, I am a Nutritionist, so I was very excited for creating a possible auxiliar tool for my colleagues. One of the main reasons why I selected this dataset is because it use normal anthropometric and biochemical tests that most of the nutritionist can have in handly.
 
 ## Data exploration
-First, most of the data type should be converted from 'Object' to 'Nuerical' or 'Float', also, some of the float type features are separated by commas instead of dots, so, you can do these conversions using the following lines of code
+First, most of the data type should be converted from 'Object' to 'Numerical' or 'Float', also, some of the float type features are separated by commas instead of dots, so, you can do these conversions using the following lines of code
 ```
 data = pd.read_csv(r'Diabetes/diabetes_anthro.csv')
 comma_cols = ['chol_hdl_ratio','bmi','waist_hip_ratio']
