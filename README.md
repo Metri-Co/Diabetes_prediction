@@ -65,7 +65,7 @@ After this, I used the `add_gnoise`function for the data augmentation and now th
 
 ## Feature selection
 
-I used Mutual Information because it is useful for non-linear responses. So, you can use the following code (all of them are functions)
+I used Mutual Information because it is useful for non-linear responses. So, you can use the following code.
 ```
 X = data.iloc[:, :-1]
 y = data.iloc[:,-1]
