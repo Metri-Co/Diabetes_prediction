@@ -85,7 +85,7 @@ y = np.array(y)
 Feel free to change the threshold of the MI index in `features` list
 
 ## Model evaluation
-I used a simple Logistic Regression model, a KNN, and a Decision Tree. The imbalance of the original dataset showed accurate models (~ 85 %of accuracy) but very low recall, which is undesired in medical applications.
+I used a simple Logistic Regression model, a KNN, and a Decision Tree. The imbalance of the original dataset showed accurate models (~ 85 %of accuracy) but very low recall (false negative classes), which is undesired in medical applications.
 
 ![Non engineered models](https://user-images.githubusercontent.com/87657676/178354136-8b01ba33-903d-4824-a049-44f37a0c4d30.jpg)
 
